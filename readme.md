@@ -33,19 +33,19 @@ With seamless integration of **Resemble AI** and a simple **Streamlit interface*
 <td width="50%">
 
 ### 📂 **Input Support**
-- 📄 Upload **DOC/DOCX** files
-- 📑 Upload **PDF** documents
-- 📝 Automatic text extraction
-- ⏳ Real-time progress tracking
+- 📄 Upload **DOC/DOCX** files  
+- 📑 Upload **PDF** documents  
+- 📝 Automatic text extraction  
+- ⏳ Real-time progress tracking  
 
 </td>
 <td width="50%">
 
 ### 🔊 **Output Magic**
-- 🎙️ Convert text to **realistic speech**
-- 🧑‍🎤 Use your **own cloned voice** (Resemble AI)
-- 💾 Download speech as **.wav**
-- 🎧 Play audio directly in the app
+- 🎙️ Convert text to **realistic speech**  
+- 🧑‍🎤 Use your **own cloned voice** (Resemble AI)  
+- 💾 Download speech as **.wav**  
+- 🎧 Play audio directly in the app  
 
 </td>
 </tr>
@@ -78,13 +78,15 @@ With seamless integration of **Resemble AI** and a simple **Streamlit interface*
 
 ### 📋 Prerequisites
 
+- ✅ Python 3.9+ installed  
+- ✅ Resemble AI API key  
+- ✅ Streamlit account (for deployment)  
+
+---
+
+### ⚡ Installation
+
 ```bash
-✅ Python 3.9+ installed
-✅ Resemble AI API key
-✅ Streamlit account (for deployment)
-⚡ Installation
-bash
-Copy code
 # 1️⃣ Clone the repository
 git clone https://github.com/yourusername/vocalizeme.git
 cd vocalizeme
@@ -99,57 +101,3 @@ echo "RESEMBLE_PROJECT_UUID=your_project_uuid" >> .env
 
 # 4️⃣ Run the app
 streamlit run app.py
-📖 How to Use
-🎯 Upload a file (DOCX or PDF)
-
-🔍 Preview extracted text inside the app
-
-🎙️ Click "Convert to Speech"
-
-🎧 Listen to the output directly in the browser
-
-💾 Download the generated audio in .wav format
-
-🏗️ Project Structure
-bash
-Copy code
-vocalizeme/
-├── app.py               # Main Streamlit app
-├── requirements.txt     # Dependencies
-├── .env.example         # Example environment variables
-├── README.md            # Documentation (you are here)
-└── output/              # Generated audio files
-🔑 Environment Variables
-Create a .env file in the root directory:
-
-env
-Copy code
-RESEMBLE_API_KEY=your_resemble_api_key
-RESEMBLE_VOICE_UUID=your_voice_uuid
-RESEMBLE_PROJECT_UUID=your_project_uuid
-🌐 Deployment
-VocalizeMe is live on Streamlit Cloud:
-👉 Visit App
-
-Deploy Yourself:
-Push your code to GitHub
-
-Go to Streamlit Cloud
-
-Select your repo → branch → app.py
-
-Add environment variables in Secrets Manager
-
-Deploy 🎉
-
-📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-<div align="center">
-⭐ Star this repo if you love VocalizeMe!
-
-
-Made with ❤️ using Streamlit & Resemble AI
-Bring your documents to life in your own voice.
-
-</div> ```
